@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" fill="none">
+  <!-- BINO GROUP ARCHITECTURAL EMBLEM (Crisp Pure White) -->
+  <g id="emblem" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Curved Base Arch -->
+    <path d="M 40 135 Q 250 115 460 135" stroke-width="6" />
+    
+    <!-- Left Wing Outer Tower 1 -->
+    <path d="M 95 131 L 95 72 L 122 66 L 122 130" fill="none" />
+    <line x1="108" y1="70" x2="108" y2="130" stroke-width="3.5" />
+    
+    <!-- Left Wing Mid Tower 2 -->
+    <path d="M 134 129 L 134 46 L 161 38 L 161 128" fill="none" />
+    <line x1="148" y1="42" x2="148" y2="128" stroke-width="4" />
+    
+    <!-- Left Center Tower 3 (Tallest Left) -->
+    <path d="M 173 127 L 173 22 L 235 6 L 235 125" fill="none" />
+    <line x1="193" y1="18" x2="193" y2="126" stroke-width="4.5" />
+    <line x1="214" y1="12" x2="214" y2="125" stroke-width="4.5" />
+    
+    <!-- Right Center Tower 4 (Tallest Right) -->
+    <path d="M 265 125 L 265 6 L 327 22 L 327 127" fill="none" />
+    <line x1="286" y1="12" x2="286" y2="125" stroke-width="4.5" />
+    <line x1="307" y1="18" x2="307" y2="126" stroke-width="4.5" />
+    
+    <!-- Right Wing Mid Tower 5 -->
+    <path d="M 339 128 L 339 38 L 366 46 L 366 129" fill="none" />
+    <line x1="352" y1="42" x2="352" y2="128" stroke-width="4" />
+    
+    <!-- Right Wing Outer Tower 6 -->
+    <path d="M 378 130 L 378 66 L 405 72 L 405 131" fill="none" />
+    <line x1="392" y1="70" x2="392" y2="130" stroke-width="3.5" />
+  </g>
+  
+  <!-- BINO GROUP TYPOGRAPHY -->
+  <text x="250" y="182" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF" letter-spacing="4">BINO</text>
+  <text x="250" y="212" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="14" font-weight="600" fill="#A5C4F7" letter-spacing="12">GROUP</text>
+</svg>

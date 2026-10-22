@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const currentDecimalHour = hours + (minutes / 60);
 
     let isOpen = false;
-    let schedule = "09:00 - 19:00";
+    let schedule = "10:00 - 19:00";
 
     if (day >= 1 && day <= 6) {
-      // Monday - Saturday: 09:00 - 19:00
-      if (currentDecimalHour >= 9 && currentDecimalHour < 19) {
+      // Monday - Saturday: 10:00 - 19:00
+      if (currentDecimalHour >= 10 && currentDecimalHour < 19) {
         isOpen = true;
       }
-      schedule = "09:00 - 19:00";
+      schedule = "10:00 - 19:00";
     } else {
       // Sunday: 10:00 - 17:00
       if (currentDecimalHour >= 10 && currentDecimalHour < 17) {
@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         statusText.textContent = `Ofis ochiq • ${schedule}`;
         if (pulsingDot) pulsingDot.style.backgroundColor = '#10B981';
       } else {
-        statusText.textContent = `Hozir dam olish vaqti • Ochilish: 09:00`;
+        statusText.textContent = `Hozir dam olish vaqti • Ochilish: 10:00`;
         if (pulsingDot) pulsingDot.style.backgroundColor = '#F59E0B';
       }
     }

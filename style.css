@@ -206,13 +206,13 @@ body {
   width: 96px;
   height: 96px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(145deg, #02389a, #001d54);
-  border: 2px solid rgba(255, 255, 255, 0.25);
+  background: #FFFFFF;
+  border: 2px solid rgba(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 12px;
-  box-shadow: var(--glass-shadow);
+  padding: 10px;
+  box-shadow: 0 8px 28px rgba(0, 10, 35, 0.45);
   overflow: hidden;
 }
 
